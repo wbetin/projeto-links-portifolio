@@ -2,14 +2,21 @@ body {
   background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
 
+body * {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
 #container {
   width: 360px;
   border: 1px solid red;
   margin: auto;
 }
 
+#profile {
+  text-align: center;
+}
+
 #profile img {
   width: 112px;
-  display: block;
-  margin: auto;
 }
