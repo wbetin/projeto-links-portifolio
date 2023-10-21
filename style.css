@@ -16,6 +16,7 @@ body * {
 #container {
   width: 360px;
   margin: 56px auto 0px;
+  padding: 0 24px;
 }
 
 #profile {
@@ -31,4 +32,31 @@ body * {
   font-weight: 500;
   line-height: 24px;
   margin-top: 8px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  text-decoration: none;
+  font-weight: 500;
+  transition: backgroud 0.2s;
+}
+
+ul li a:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid white;
 }
